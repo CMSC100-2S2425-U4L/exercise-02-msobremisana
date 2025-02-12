@@ -4,19 +4,27 @@
     <head>
         <title> Sobremisana - Portfolio </title>
         <style>
+            .nav{
+                display:flex;
+                background: black;
+                color: white;
+                padding: 5px
+            }
+
             .portfolio{
                 display:flex;
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: space-between;
                 text-align: left;
+                padding-top:20px;
             }
 
             .header{
-                padding: 30px;
-                display:flex;
-                align-items:left;
-                text-align: left;
+                padding: 150px;
+
+                align-items:center;
+                text-align: center;
                 background: #1abc9c;
                 color: white;
             }
@@ -32,18 +40,55 @@
             }
 
             .autobiography{
+                display:flex;
                 padding: 10px;
             }
 
             .side{
                 padding:20px;
                 background-color: #f1f1f1;
-                height:100%
+
+                align-items:center;
+                text-align: left;
+                height:100%;
                 
             }
 
+            .skills{
+                padding:50px;
+            }
+
             .projects{
-                padding-right: 300px;
+                padding: 50px;
+                text-align: left;
+            }
+
+            .main{
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .autocont{
+                padding-left: 30px;
+            }
+
+            .label{
+                font-size: 30px;
+            }
+
+            .footer{
+                
+                background: black;
+                color: white;
+                padding: 50px;
+                align-items: center;
+            }
+
+            .txt{
+                display:flex;
+                align-items:center;
             }
 
 
@@ -51,31 +96,42 @@
     </head>
 
     <body>
+        <div class="nav">
+            abc | abc | abc
+        </div>
         <div class="header">
-            <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" width="50" height="50">
+            <div class="portrait">
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" width="200" height="200">
+            </div>
             <div class="header_text">
-                header
+                marie sobremisana
             </div>
         </div>
 
-        <div class ="portfolio">
+
             <div class="side">
-                <div class="portrait">
-                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" width="200" height="200">
-                </div>
 
                 <div class="autobiography">
-                    aljhgkaejlaskjg;skjdlgsjlrkjh;slrhj;srjhrkejkg<br>
-                    absfjs<br>
-                    adaty<br>
-                    atea<br>
-                    adatyat<br>
+                    <div class="label">
+                        AUTOBIOGRAPHY
+                    </div>
+                    <div class="autocont">
+                        aljhgkaejlaskjg;skjdlgsjlrkjh;slrhj;srjhrkejkg<br>
+                        absfjs<br>
+                        adaty<br>
+                        atea<br>
+                        adatyat<br>
+                    </div>
+                    
                 </div>
 
                 </div>
-
+            <div class="main">
                 <div class="skills">
                     SKILLS<br>
+                    - aafa<br>
+                    - gdsh<br>
+                    - ashsh<br>
                     - aafa<br>
                     - gdsh<br>
                     - ashsh<br>
@@ -86,11 +142,19 @@
                     - agagdasg<br>
                     - agjgajdg<br>
                     - ajjg<br>
+                    - aafa<br>
+                    - gdsh<br>
+                    - ashsh<br>
                 </div>
             </div>
+ 
         </div>
 
         <div class ="footer">
+            <div class="txt">
+                ABC abc abc<br>
+                abc abc abc
+            </div>
 
         </div>
     </body>
