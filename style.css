@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+
+.nav{
+    display:flex;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.header{
+    padding: 150px;
+    align-items:center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    color: white;
+    background-size: cover;
+}
+
+.header_text{
+    font-family: "Sofia", sans-serif;
+    padding-left: 20px;
+    font-size:30px;
+    text-shadow: 3px 3px 3px #06060679;
+    font-style: bold;
+}
+
+.portfolio{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    padding-top:20px;
+}
+
+.portrait{
+    padding: 10px;
+    align-self: center;
+}
+
+.main{
+    background-color: #f1f1f1;
+    text-align: left;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.autobiography{
+    display:flex;
+    padding: 10px;
+}
+
+.autobiography-content{
+    padding: 30px;
+    background:rgba(0, 0, 0, 0.3);
+}
+
+.skills{
+    display:flex;
+    padding:50px;
+}
+
+
+.skills-content{
+    padding-left: 185px;
+    display:flex;
+    flex-direction: row;
+    color:white;
+    font-family: Rubik, sans-serif;
+}
+
+.management{
+    padding-left: 185px;
+}
+
+.projects{
+    padding: 50px;
+}
+
+.proj{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.label{
+    font-size: 30px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 3px 3px 3px #06060679;
+    text-decoration: underline;
+}
+
+h3{
+    text-shadow: 3px 3px 3px #060606;
+}
+
+.footer{
+    background: black;
+    color: white;
+    padding: 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.contact{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.txt{
+    display:flex;
+    align-items:center;
+    font-family: Rubik, sans-serif;
+    color:#e2f3f0; 
+    padding-left: 30px;
+}
+
+.odd{
+    background: #012924;
+}
+
+.even{
+    background: #025c50;
+}

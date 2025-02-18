@@ -3,101 +3,18 @@
 <html>
     <head>
         <title> Sobremisana - Portfolio </title>
-        <style>
-            .nav{
-                display:flex;
-                background: black;
-                color: white;
-                padding: 5px
-            }
-
-            .portfolio{
-                display:flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                text-align: left;
-                padding-top:20px;
-            }
-
-            .header{
-                padding: 150px;
-
-                align-items:center;
-                text-align: center;
-                background: #1abc9c;
-                color: white;
-            }
-
-            .header_text{
-                padding-left: 20px;
-                font-size:30px;
-            }
-
-            .portrait{
-                padding: 10px;
-                align-self: center;
-            }
-
-            .autobiography{
-                display:flex;
-                padding: 10px;
-            }
-
-            .side{
-                padding:20px;
-                background-color: #f1f1f1;
-
-                align-items:center;
-                text-align: left;
-                height:100%;
-                
-            }
-
-            .skills{
-                padding:50px;
-            }
-
-            .projects{
-                padding: 50px;
-                text-align: left;
-            }
-
-            .main{
-                display:flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-            }
-
-            .autocont{
-                padding-left: 30px;
-            }
-
-            .label{
-                font-size: 30px;
-            }
-
-            .footer{
-                
-                background: black;
-                color: white;
-                padding: 50px;
-                align-items: center;
-            }
-
-            .txt{
-                display:flex;
-                align-items:center;
-            }
-
-
-        </style>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral|Rubik">
     </head>
 
     <body>
         <div class="nav">
-            abc | abc | abc
+            <p style="padding: 5px;">Home</p>
+            <p style="padding: 5px;">|</p>
+            <p style="padding: 5px;">About</p>
+            
         </div>
         <div class="header">
             <div class="portrait">
@@ -106,54 +23,71 @@
             <div class="header_text">
                 marie sobremisana
             </div>
+            <p class="autobiography-content txt">
+                I'm Marie Hermileen J. Sobremisana, a BS Computer Science student in 
+                the University of the Philippines Los Baños and a freelance digital artist. 
+                Growing up in the era of information, I was surrounded by computers from 
+                very early childhoodーoften would I explore various educational websites 
+                and games for kids, and thus was my interest in the technology and its 
+                development sparked. In my elementary days, I explored the very basics of 
+                HTML and web development, while my time in UP Rural Highschool supplemented 
+                that knowledge further with CSS and programming languages such as C++. I 
+                hope to further enrich my skills in problem solving and critical thinking, 
+                and continue to gain new knowledge that I might one day use these skills to 
+                help create things that can help, inspire, and entertain people, and overall benefit society.
+            </p>
         </div>
 
 
-            <div class="side">
-
-                <div class="autobiography">
-                    <div class="label">
-                        AUTOBIOGRAPHY
-                    </div>
-                    <div class="autocont">
-                        aljhgkaejlaskjg;skjdlgsjlrkjh;slrhj;srjhrkejkg<br>
-                        absfjs<br>
-                        adaty<br>
-                        atea<br>
-                        adatyat<br>
+            <div class="main">
+                <div class="skills odd">
+                    <div class="label"> SKILLS </div>
+                    <div class="skills-content">
+                        <p class="technical-skills">
+                            <h3>DEVELOPMENT</h3><br>
+                            <div style="padding:20px;">Python<br>
+                            C, C++<br>
+                            HTML<br>
+                            CSS<br>
+                            Java, Javascript<br>
+                            </div>
+                        </p>
+                        <p class="management">
+                            <h3>MANAGEMENT</h3><br>
+                            <div style="padding:20px;">
+                            Clear and transparent communication<br>
+                            Efficient time delegation<br>
+                            </div>
+                        </p>
                     </div>
                     
                 </div>
 
-                </div>
-            <div class="main">
-                <div class="skills">
-                    SKILLS<br>
-                    - aafa<br>
-                    - gdsh<br>
-                    - ashsh<br>
-                    - aafa<br>
-                    - gdsh<br>
-                    - ashsh<br>
-                </div>
-
-                <div class="projects">
-                    PROJECTS<br>
-                    - agagdasg<br>
-                    - agjgajdg<br>
-                    - ajjg<br>
-                    - aafa<br>
-                    - gdsh<br>
-                    - ashsh<br>
+                <div class="projects even">
+                    <div class="label"> PROJECTS </div>
+                    <div class="proj row">
+                        <p class="txt" style="padding-left:310px;">CMSC 12 Library DBMS in Python</p>
+                        <a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc2ac251-a195-4d61-9314-1e8a2fc531d7/dj7c0at-f05e1fd7-e38d-4c76-ac51-1de6b1caa03f.png/v1/fill/w_1221,h_654,q_70,strp/library_by_ruscapeh_dj7c0at-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njg2IiwicGF0aCI6IlwvZlwvZmMyYWMyNTEtYTE5NS00ZDYxLTkzMTQtMWU4YTJmYzUzMWQ3XC9kajdjMGF0LWYwNWUxZmQ3LWUzOGQtNGM3Ni1hYzUxLTFkZTZiMWNhYTAzZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KJ3BMc4uwRrA6FgJgixsJsG_BtbNAeP_TQYkdA3OUT8">
+                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc2ac251-a195-4d61-9314-1e8a2fc531d7/dj7c0at-f05e1fd7-e38d-4c76-ac51-1de6b1caa03f.png/v1/fill/w_1221,h_654,q_70,strp/library_by_ruscapeh_dj7c0at-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njg2IiwicGF0aCI6IlwvZlwvZmMyYWMyNTEtYTE5NS00ZDYxLTkzMTQtMWU4YTJmYzUzMWQ3XC9kajdjMGF0LWYwNWUxZmQ3LWUzOGQtNGM3Ni1hYzUxLTFkZTZiMWNhYTAzZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KJ3BMc4uwRrA6FgJgixsJsG_BtbNAeP_TQYkdA3OUT8",
+                            style="width:700px; border: 3px solid #ddd;">
+                        </a>
+                        <p class="txt" style="padding-left:310px;">CMSC 130 Diet Problem Solver</p>
+                        <a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc2ac251-a195-4d61-9314-1e8a2fc531d7/dj7c60n-7bb61025-f66f-4c40-afa0-47a48c521607.png/v1/fill/w_1239,h_645,q_70,strp/rshiny_by_ruscapeh_dj7c60n-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY3IiwicGF0aCI6IlwvZlwvZmMyYWMyNTEtYTE5NS00ZDYxLTkzMTQtMWU4YTJmYzUzMWQ3XC9kajdjNjBuLTdiYjYxMDI1LWY2NmYtNGM0MC1hZmEwLTQ3YTQ4YzUyMTYwNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.dFvLLc8iat5bKh995wPfuZqKbgJdndss9RldaHXBb7M">
+                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc2ac251-a195-4d61-9314-1e8a2fc531d7/dj7c60n-7bb61025-f66f-4c40-afa0-47a48c521607.png/v1/fill/w_1239,h_645,q_70,strp/rshiny_by_ruscapeh_dj7c60n-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY3IiwicGF0aCI6IlwvZlwvZmMyYWMyNTEtYTE5NS00ZDYxLTkzMTQtMWU4YTJmYzUzMWQ3XC9kajdjNjBuLTdiYjYxMDI1LWY2NmYtNGM0MC1hZmEwLTQ3YTQ4YzUyMTYwNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.dFvLLc8iat5bKh995wPfuZqKbgJdndss9RldaHXBb7M",
+                            style="width:700px; border: 3px solid #ddd;">
+                        </a>
+                    </div>
                 </div>
             </div>
- 
         </div>
 
+
         <div class ="footer">
+            <div class="contact">Contact</div>
             <div class="txt">
-                ABC abc abc<br>
-                abc abc abc
+                msobremisana@up.edu.ph<br>
+                0998 223 6604<br>
+                Los Banos, Laguna
             </div>
 
         </div>
